@@ -13,10 +13,10 @@ var km, age, costkm, cost;
 
 // Invocazione variabili
  // Chiediamo all'utente il numero di chilometri che deve fare
-km = prompt("Inserisci la distanza in km che devi percorrere");
+km = parseInt(prompt("Inserisci la distanza in km che devi percorrere"));
 
  // Chiediamo all'utente la sua età
-age = prompt("Inserisci la tua età");
+age = parseInt(prompt("Inserisci la tua età"));
 
  // Calcoliamo il costo rapporato ai chilometri
 costkm = km * 0.21;
